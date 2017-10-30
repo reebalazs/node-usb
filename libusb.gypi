@@ -33,6 +33,9 @@
       },
       'defines': [
         'ENABLE_LOGGING=1',
+        # Needed to avoid Error C2011: ‘timespec’: ‘struct’ type redefinition
+        'HAVE_STRUCT_TIMESPEC=1',
+        '_TIMESPEC_DEFINED=1',
       ],
       'cflags': [
         '-w',
