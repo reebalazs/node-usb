@@ -30,7 +30,7 @@
     "url": "https://github.com/tessel/node-usb.git"
   },
   "scripts": {
-    "preinstall": "git submodule init; git submodule update",
+    "preinstall": "git submodule update --init --recursive",
     "install": "node-pre-gyp install --fallback-to-build",
     "test": "mocha --compilers coffee:coffee-script --grep Module",
     "full-test": "mocha --compilers coffee:coffee-script",
