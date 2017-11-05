@@ -30,7 +30,6 @@
     "url": "https://github.com/tessel/node-usb.git"
   },
   "scripts": {
-    "preinstall": "git clone https://github.com/kevinmehall/libusb.git",
     "install": "node-pre-gyp install --fallback-to-build",
     "test": "mocha --compilers coffee:coffee-script --grep Module",
     "full-test": "mocha --compilers coffee:coffee-script",
