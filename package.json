@@ -38,7 +38,7 @@
   "binary": {
     "module_name": "usb_bindings",
     "module_path": "./src/binding",
-    "host": "https://github.com/tessel/node-usb/releases/download/",
+    "host": "https://github.com/reebalazs/node-usb/releases/download/",
     "remote_path": "{version}"
   },
   "dependencies": {
